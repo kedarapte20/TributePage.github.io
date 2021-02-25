@@ -1,0 +1,139 @@
+h1{
+	text-align:center;
+	font-size:50px;
+	font-family:sans-serif;
+}
+h2{
+	text-align:center;
+	font-size:45px;
+	font-family: sans-serif;
+}
+section{
+	color:#ffffff;
+	background:-webkit-linear-gradient(#666666 0%, #00b7ea 100%);
+	padding:2px;
+}
+#events{
+	color:rgb(255,0,0);
+}
+figcaption{
+	text-align:center;
+	font-size:25px;
+	font-family: impact;
+}
+p{
+	text-align:center;
+	font-size:30px;
+}
+img {
+	display:block;
+	margin:auto;
+	width:40%;
+	border-radius: 6px;
+	padding: 5px;
+	border:solid;
+	transition: 2s ease;
+	transition-property: width;
+	transition-duration: 1s;
+	transition-delay: 0.5s;
+	transition-timing-function: linear;
+}
+img:hover{
+	width:55%;
+	height:55%;
+}
+blockquote{
+	text-align:center;
+	font-size:25px;
+	font-family: arial;
+}
+iframe{
+	margin:auto;
+	width:45%;
+	height:500px;
+}
+
+ul {
+  background: #3399aa;
+  padding: 20px;
+}
+ul li {
+  background: #cce5ff;
+  margin: 5px;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: justify;
+}
+p{
+	font-size:40px;
+}
+table{
+	text-align: center;
+	width:30%;
+	height:800px;
+	transition-property: width
+	transition-delay:0.5s;
+	transition-timing-function: linear;
+	transition-duration: 1s;
+	transition: 2s ease;
+}
+table:hover{
+	width:50%;
+	height:1000px;
+}
+th{
+	height:50px;
+	font-size:30px;
+	text-transform: uppercase;
+	background:-webkit-linear-gradient(#666666 0%, #00b7ea 100%);
+}
+td{
+	height:60px;
+	font-size:30px;
+	text-transform: uppercase;
+	color:#16235a;
+
+}
+tr{
+	background-color: #dbb4da;
+}
+#quote{
+	font-size: 40px;
+	text-align:center;
+	font-family: sans-serif;
+	color:rgb(1,1,150);
+	text-transform: uppercase;
+}
+figcaption{
+	font-size: 30px;
+}
+strong{
+	text-transform: uppercase;
+}
+body{
+	margin:2%;
+	background-image: linear-gradient(
+		120deg
+		,#f0c53a,#1cc5d8);
+}
+a{
+	display: inline-block;
+	text-decoration:none;
+	height:50px;
+    width:100px;
+	padding:5px;
+	padding-bottom:10px
+	border:2px;
+	margin:solid 2px;
+	color:black;
+	background:-webkit-linear-gradient(#666666 0%, #00b7ea 100%);
+}
+a:hover,a:active{
+	color:rgb(192,192,192);
+}
+ul li:nth-of-type(odd){
+	background-color: #f3e96b;
+}
+ul li:nth-of-type(even){
+	background-color:#f28a30;
+}
